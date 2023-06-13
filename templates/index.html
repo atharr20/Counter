@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style>
+        .container {
+            text-align: center;
+            background-color: teal;
+            margin-left: 350px;
+            font-size: large;
+        }
+        .resetcol {
+            text-align: center;
+            background-color: red;
+            margin-left: 200px;
+            font-size: large;
+        }
+        .center {
+            margin-left: 450px;
+        }
+    </style>
+</head>
+<body>
+    <h2 class='center'>Counter</h2>
+    <h2 class="center">{{session['counter']}}</h2>
+    <a href="/click"><button class='container'>Click</button></a>
+    <a href='/clear'><button class="resetcol">Reset</button></a>
+</body>
+</html>
